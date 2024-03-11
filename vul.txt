@@ -1,0 +1,24 @@
+sudo nmap --script-updatedb
+
+cd /usr/share/nmap/scripts
+
+ls | wc-l
+
+ls -la | more
+
+sudo namp -sC 192.125.125(metasploit ip)
+
+ls | grep ssh
+
+nmap --script-help ssh2-enum-algos
+
+nmap --script=ssh-run 192.145.12(metaip)
+ls | grep http
+
+Run metasploitable2 website on firefox in kali linux
+
+nikto -list-plugins | more
+
+sudo nikto -h 192.168.155 -p 80 -Plugins "apacheuser(enumerate,dictionary:users.txt);report_xml" -output apacheusers.xml
+
+cat apacheusers.xml
